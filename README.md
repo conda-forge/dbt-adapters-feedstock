@@ -143,6 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/dbt](https://github.com/conda-forge/dbt/)
+* [@conda-forge/dbt](https://github.com/orgs/conda-forge/teams/dbt/)
 * [@rxm7706](https://github.com/rxm7706/)
 
