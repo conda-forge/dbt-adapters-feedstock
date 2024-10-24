@@ -16,17 +16,19 @@ build:
 
 requirements:
   host:
-    - python >=3.8.0
+    - python >=3.9.0
     - hatchling
     - pip
   run:
-    - python >=3.8.0
-    - dbt-common >=1.8,<2.0
+    - python >=3.9.0
+    - dbt-common >=1.11,<2.0
     - pytz >=2015.7
     - agate >=1.0,<2.0
     - mashumaro >=3.0,<4.0
     - protobuf >=3.0,<5.0
     - typing-extensions >=4.0,<5.0
+    # for mashumaro[msgpack]
+    - msgpack >=0.5.6
 
 test:
   imports:
@@ -45,4 +47,5 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/dbt
+    - thewchan
     - rxm7706
