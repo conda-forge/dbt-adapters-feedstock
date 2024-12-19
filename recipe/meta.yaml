@@ -24,9 +24,9 @@ requirements:
     - dbt-common >=1.13,<2.0
     - pytz >=2015.7
     - agate >=1.0,<2.0
-    - mashumaro >=3.0,<4.0
+    - mashumaro >=3.9,<3.15
     - protobuf >=5.0,<6.0
-    - typing-extensions >=4.0,<5.0
+    - typing_extensions >=4.0,<5.0
     # for mashumaro[msgpack]
     - msgpack-python >=0.5.6
 
