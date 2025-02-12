@@ -38,6 +38,7 @@ test:
   requires:
     - python {{ python_min }}
     - pip
+    - dbt
 
 about:
   home: https://github.com/dbt-labs/dbt-adapters
