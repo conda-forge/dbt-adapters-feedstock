@@ -32,7 +32,7 @@ requirements:
 
 test:
   imports:
-    - dbt.adapters
+    - dbt_adapters
   commands:
     - pip check
   requires:
