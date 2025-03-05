@@ -11,7 +11,9 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: |
+    cd dbt-adapters
+    {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
@@ -32,7 +34,7 @@ requirements:
 
 test:
   imports:
-    - dbt_adapters
+    - dbt.adapters
   commands:
     - pip check
   requires:
