@@ -1,5 +1,5 @@
 {% set name = "dbt-adapters" %}
-{% set version = "1.20.1" %}
+{% set version = "1.21.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dbt_adapters-{{ version }}.tar.gz
-  sha256: 3f12e805164f093dfc0df0b4e39d5bbb8edf08cd99891410fbfb6887ea3d39b8
+  sha256: 5b8da1225fdda8f2a7a5ce617e70345fdb63e0e9c3a5c5909281c1bb43f689f5
 
 build:
   noarch: python
