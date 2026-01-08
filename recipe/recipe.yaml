@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dbt-adapters
-  version: 1.22.2
+  version: "1.22.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dbt_adapters-${{ version }}.tar.gz
-  sha256: 05bb99c30bd7ca0153976595d46c59354302ab076051f004e92a841f117e71be
+  sha256: d0cbfa3f1570b9e62d2e205f9b4bbe83d2a791f4b29ddf773823b56e52eefdb6
 
 build:
   number: 0
